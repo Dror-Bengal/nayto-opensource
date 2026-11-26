@@ -1,6 +1,6 @@
 # Nayto / opensource
 
-Private release candidate for the eight-project catalog. The gallery at `/opensource/` uses screenshots from the curated editions. The GitHub links lead to their standalone repositories.
+Source for the eight-project catalog at [www.nayto.ai/opensource](https://www.nayto.ai/opensource). The gallery at `/opensource/` uses screenshots from the curated editions. The GitHub links lead to their standalone repositories.
 
 ## Run the hosted edition locally
 
@@ -22,6 +22,10 @@ The React interface comes from the Marketing Analytics Dashboard edition at comm
 
 The sample generator and capture tool are in `demo/scripts/`. To refresh the snapshot, point the local showcase service on port 18808 at an unmodified demonstration database and run `python3 demo/scripts/fixtures.py`. The capture verifies sample fields, timestamps, counts and benchmark membership. It serializes generated sample records, not arbitrary database documents. Update the displayed snapshot date when refreshing it.
 
-## Publishing
+## Website integration
 
-The preview uses Vercel Authentication. Private repository labels and indexing directives describe the preview state. Before making it public, confirm redistribution rights and code licenses for the individual editions. Keep the existing private archive separate. The Nayto site integration serves a copy of this build in its own public/opensource directory and rewrites /opensource to its index.
+The Nayto site serves the built catalog in its own `public/opensource` directory and rewrites `/opensource` to its index. Run the dashboard build before copying the catalog to a new host.
+
+## License
+
+Nayto’s code is distributed under the [MIT License](LICENSE). Third-party software and media retain their original terms. The bundled Rubik font includes its OFL license, and the Frame Studio sample photo credit is in `public/opensource/credits`.
