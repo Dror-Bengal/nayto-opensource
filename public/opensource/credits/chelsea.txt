@@ -1,0 +1,5 @@
+Chelsea the cat
+Photograph by Stefan van der Walt, released under CC0.
+https://scikit-image.org/docs/0.22.x/api/skimage.data.html#skimage.data.chelsea
+Source file from scikit-image v0.22.0
+https://github.com/scikit-image/scikit-image/blob/v0.22.0/skimage/data/chelsea.png

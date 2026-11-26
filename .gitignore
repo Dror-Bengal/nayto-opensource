@@ -1,0 +1,7 @@
+.vercel/
+node_modules/
+__pycache__/
+dist/
+.DS_Store
+.env*
+public/opensource/dashboard/

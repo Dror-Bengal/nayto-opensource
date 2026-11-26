@@ -1,0 +1,8 @@
+{
+  "framework": null,
+  "buildCommand": "npm --prefix demo ci --no-audit --no-fund && npm --prefix demo run build -- --base=./ && mkdir -p public/opensource/dashboard && cp -R demo/dist/. public/opensource/dashboard/",
+  "outputDirectory": "public",
+  "redirects": [{"source": "/", "destination": "/opensource/index.html", "permanent": false}],
+  "rewrites": [{"source": "/opensource", "destination": "/opensource/index.html"}],
+  "headers": [{"source": "/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]}]
+}
