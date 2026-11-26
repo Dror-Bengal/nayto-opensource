@@ -24,4 +24,4 @@ The sample generator and capture tool are in `demo/scripts/`. To refresh the sna
 
 ## Publishing
 
-The preview uses Vercel Authentication. Private repository labels and indexing directives describe the preview state. Before making it public, confirm redistribution rights and code licenses for the individual editions. Keep the existing private archive separate. The main Nayto site can route only `/opensource` and its descendants to this project's production host once it is approved.
+The preview uses Vercel Authentication. Private repository labels and indexing directives describe the preview state. Before making it public, confirm redistribution rights and code licenses for the individual editions. Keep the existing private archive separate. The Nayto site integration serves a copy of this build in its own public/opensource directory and rewrites /opensource to its index.
